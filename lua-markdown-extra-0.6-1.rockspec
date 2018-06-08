@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-markdown-extra"
-version = "0.5-1"
+version = "0.6-1"
 -- LuaDist source
 source = {
-  tag = "0.5-1",
+  tag = "0.6-1",
   url = "git://github.com/LuaDist-testing/lua-markdown-extra.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/soapdog/lua-markdown-extra",
---    tag = "v0.5"
+--    tag = "v0.6"
 -- }
 description = {
    homepage = "https://github.com/soapdog/lua-markdown-extra",
