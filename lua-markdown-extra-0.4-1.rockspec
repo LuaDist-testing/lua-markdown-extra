@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "lua-markdown-extra"
-version = "0.3-1"
+version = "0.4-1"
+-- LuaDist source
 source = {
-   url = "git://github.com/soapdog/lua-markdown-extra",
-   tag = "v0.3"
+  tag = "0.4-1",
+  url = "git://github.com/LuaDist-testing/lua-markdown-extra.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/soapdog/lua-markdown-extra",
+--    tag = "v0.4"
+-- }
 description = {
    homepage = "https://github.com/soapdog/lua-markdown-extra",
    license = "MIT",
@@ -11,7 +19,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.1",
-   "markdown",
+   "lua-discount",
    "yaml"
 }
 build = {
